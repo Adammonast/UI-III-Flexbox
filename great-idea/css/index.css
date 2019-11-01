@@ -64,3 +64,205 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* header */
+
+header nav{
+	width: 691px;
+	display: flex;
+}
+
+nav{
+	width: 100%;
+	margin: 2%;
+}
+
+nav a{
+	padding: 5px;
+	margin:0 3%;
+	color: grey;
+	text-decoration:none;
+}
+
+/* Title Text & Logo */
+
+.stuff{
+	display: flex;
+}
+
+.cta-text{
+	display:flex;
+	flex-direction: column; 
+	padding: 2%;
+	text-align: center;
+}
+
+.image{
+	padding: 10%;
+}
+
+h1{
+	font-size:60px;
+	padding:10%;
+}
+
+h3{
+	font-size: 20px;
+}
+
+button{
+	margin: 15%;
+	padding: 10px 40px;
+	border: 2px solid black;
+	font-size: 15px;
+	justify-content: center;
+
+}
+
+.services-header-img{
+	width:75%;
+	padding: 2%;
+}
+
+/* Service Section */
+
+.services{
+	width: 77%;
+	padding: 1%;
+}
+
+
+/* First two paragraphs */
+.top-content{
+	width: 80%;
+	display: flex;
+	margin: 1%;
+	border-top-style: 2px solid black;
+}
+
+.top{
+	width: 80%;
+	height: 20%;
+	margin: 1% 4% 2%;
+}
+
+
+/* Middle three paragraphs */
+
+.middle-content{
+	width: 70%;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 1% 4% 2%;
+}
+
+.middle-img{
+	width: 75%;
+	margin: 1% 4% 2%;
+}
+
+/* bottom content */
+
+p{
+	padding:.5%; 
+}
+.bottom-content{
+	width: 70%;
+	margin: 2% 4% 2%;
+}
+
+footer{
+	text-align: center;
+	padding-top: 0;
+	padding-bottom: 3%;
+}
+
+/* Services HTML */
+
+/* Main Container for  First Two Paragraphs */
+
+.first-two-paragraphs{
+	width: 77%;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 3%;
+}
+
+.digital-design{
+	background: lightgrey;
+	width: 50%;
+	border: 1px solid black;
+	padding: 2%;
+	margin: 2%;
+}
+
+.ux-ui{
+	background: lightgrey;
+	width: 50%;
+	border: 1px solid black;
+	padding: 2%;
+	margin: 2%;
+}
+
+/* Main Container for Second Two Paragraphs */
+
+.second-two-paragraphs{
+	width: 77%;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 2%;
+}
+
+.digital-marketing{
+	background: lightgrey;
+	width: 50%;
+	border: 1px solid black;
+	padding: 2%;
+	margin: 2%;
+}
+
+.web-development{
+	background: lightgrey;
+	width: 50%;
+	border: 1px solid black;
+	padding: 2%;
+	margin: 2%;
+}
+
+/* Main Container for Last Two Paragraphs */
+
+.last-two-paragraphs{
+	width: 77%;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 2%;
+}
+
+.ios-development{
+	background: lightgrey;
+	width: 50%;
+	border: 1px solid black;
+	padding: 2%;
+	margin: 2%;
+}
+
+.android-development{
+	background: lightgrey;
+	width: 50%;
+	border: 1px solid black;
+	padding: 2%;
+	margin: 2%;
+}
+
+/* Main Container for Some Facts About Us Section */
+
+.some-facts{
+	width: 80%;
+	display: flex;
+	padding: 3%;
+}
+
+.service-info-img{
+	width: 4%;
+	padding: 1%;
+}
